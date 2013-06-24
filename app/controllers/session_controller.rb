@@ -9,9 +9,9 @@ class SessionController < ApplicationController
     @user.name = @user.name.downcase
     user = User.where("name = '#{@user.name}' AND password = '#{@user.password}'")
     if user.empty?
-      puts "user"
+      @user.error = ""
     else
-      puts "sigin"
+      session[:user] = user
     end
   end
 end

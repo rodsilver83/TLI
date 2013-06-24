@@ -5,14 +5,18 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
 gem 'pg'
 gem 'bootstrap-sass', '2.1'
-gem 'thin'
 gem 'json'
 gem 'bourbon'
 gem 'carrierwave'
 
+group :development do
+  gem 'thin'
+end
+
+group :production do
+end
 
 
 # Gems used only for assets and not required

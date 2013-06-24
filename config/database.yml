@@ -33,7 +33,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: pg
+  adapter: postgresql
   database: d3ison1vagm4bq
   host: ec2-54-225-121-179.compute-1.amazonaws.com
   user: elyjgjmowhxrvl

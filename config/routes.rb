@@ -12,7 +12,7 @@ TrendytaPinTab::Application.routes.draw do
   match '/signin' => 'session#signin'
     
   get 'charts/index'
-  match 'charts' => 'charts#index'
+  match '/charts' => 'charts#index'
   
   match '/like' => 'tab#like'
   

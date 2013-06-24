@@ -1,0 +1,189 @@
+@import "bootstrap";
+@import "bourbon";
+
+.navbar-inner{
+  background-color: black;
+  background-image: none;
+}
+
+.logo{
+  margin: 10px;
+}
+
+.logo > img {
+  padding: 10px;
+}
+
+body{
+  margin-top: 70px;
+  width: 100%;
+}
+
+.img-polaroid{
+  padding: 0px;
+}
+
+.rowtype1 > .row, .rowtype2 > .row, .rowtype5 > .row{
+  
+}
+
+.rowtype1 > .row .row{
+  margin-bottom: 13%;
+}
+
+.rowtype2 > .row .row{
+  margin-bottom: 12%;
+}
+
+.rowtype3 > .row{
+  margin-bottom: 1%;
+}
+
+.rowtype4 > .row .row{
+  margin-bottom: 8%;
+}
+
+.rowtype5 > .row .row{
+  margin-bottom: 8%;
+}
+
+.rowtype6 > .row .row{
+  margin-bottom: 13%;
+}
+
+.layover4{
+  background-color: black;
+    height: 302px;
+    position: absolute;
+    width: 302px;
+    opacity: 0;
+    transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .layover4{
+  opacity: 0.5;
+  transition: all 0.35s ease 0s;
+}
+
+.layover3{
+  background-color: black;
+    height: 222px;
+    position: absolute;
+    width: 222px;
+    opacity: 0;
+    transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .layover3{
+  opacity: 0.5;
+  transition: all 0.35s ease 0s;
+}
+
+.layover2{
+  background-color: black;
+    height: 142px;
+    position: absolute;
+    width: 142px;
+    opacity: 0;
+    transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .layover2{
+  opacity: 0.5;
+  transition: all 0.35s ease 0s;
+}
+
+.layover6{
+  background-color: black;
+    height: 462px;
+    position: absolute;
+    width: 462px;
+    opacity: 0;
+    transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .layover6{
+  opacity: 0.5;
+  transition: all 0.35s ease 0s;
+}
+
+.love-it4{
+  color: white;
+  background-color: #15A085;
+  padding: 20px;
+  width: 262px;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .love-it4{
+  opacity: 1;
+  transition: all 0.35s ease 0s;
+}
+
+.love-it2{
+  color: white;
+  background-color: #15A085;
+  padding: 10px 20px;
+  width: 102px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .love-it2{
+  opacity: 1;
+  transition: all 0.35s ease 0s;
+}
+
+.love-it3{
+  color: white;
+  background-color: #15A085;
+  padding: 10px 20px;
+  width: 182px;
+  position: absolute;
+  margin-top: 90px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .love-it3{
+  opacity: 1;
+  transition: all 0.35s ease 0s;
+}
+
+.love-it6{
+  color: white;
+  background-color: #15A085;
+  padding: 20px;
+  width: 422px;
+  position: absolute;
+  margin-top: 200px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}
+
+.like-btn:hover > .love-it6{
+  opacity: 1;
+  transition: all 0.35s ease 0s;
+}
+
+.icon-heart{
+  margin-top: 7px;
+}
+
+.layover-out{
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}

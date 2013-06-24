@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cookie: MyString
+  product_id: 1
+
+two:
+  cookie: MyString
+  product_id: 1
